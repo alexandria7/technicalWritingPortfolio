@@ -1,4 +1,4 @@
-# technicalWritingPortfolio
+# Alex McCarthy's Technical Writing Portfolio
 
 The following are some samples of my technical writing:
 
