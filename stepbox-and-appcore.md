@@ -1,9 +1,9 @@
 
 # Working with app-core in the step-box
 
-If you’re on this page you are probably trying to develop locally in app-core (i.e the repository for the main Smartsheet app) with your current step-box set up. [Here](www.google.com) are some helpful steps and tips to get that working successfully.  
+If you’re on this page you are probably trying to develop locally in app-core (i.e the repository for the main Smartsheet app) with your current step-box set up. [Here]() are some helpful steps and tips to get that working successfully.  
 
-1. Make sure your step-box is up and working properly. If you don’t yet have that set up, follow instructions [here](wwww.google.com) first.
+1. Make sure your step-box is up and working properly. If you don’t yet have that set up, follow instructions [here]() first.
     - tip: make sure your mutagen .yml file for syncing points to the correct path where your repos are
 2. From there make sure you can access both the Smartsheet app (the first link under “Helpful Links” on your home dashboard at `{stepboxname}.smart.ninja`)
 3. If you just want to play around in the app without any local changes, that’s it! If you have things you want to test locally, continue on.
@@ -12,7 +12,7 @@ If you’re on this page you are probably trying to develop locally in app-core 
     ```
     ssh dev-{steboxname}
     ```
-7. Then run a build command . Here is the [wiki](www.google.com) for various build commands you can run. `/opt/git/app-core/src/main/build/build.sh` is the start of the build command you want to run, and then if it’s your first time running we suggest adding `-f` to the end of the command, `-w` if it's not the first time running the command. If you are making changes locally, build.sh `-w` is a reliable command to run to see your changes reflected in the app. It takes around ~5 minutes to run each time, and then you can refresh the app page and see your changes reflected. A sample command at the root would be:
+7. Then run a build command . Here is the [wiki]() for various build commands you can run. `/opt/git/app-core/src/main/build/build.sh` is the start of the build command you want to run, and then if it’s your first time running we suggest adding `-f` to the end of the command, `-w` if it's not the first time running the command. If you are making changes locally, build.sh `-w` is a reliable command to run to see your changes reflected in the app. It takes around ~5 minutes to run each time, and then you can refresh the app page and see your changes reflected. A sample command at the root would be:
     ```
     /opt/git/app-core/src/main/build/build.sh -f
     ```
