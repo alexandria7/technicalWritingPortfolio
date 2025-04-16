@@ -1,7 +1,7 @@
 
 # Working with app-core in the step-box
 
-If you’re on this page you are probably trying to develop locally in app-core (i.e the repository for the main Smartsheet app) with your current step-box set up. [Here]() are some helpful steps and tips to get that working successfully.  
+If you’re on this page you are probably trying to develop locally in app-core (i.e the repository for the main Smartsheet app) with your current step-box set up. Here are some helpful steps and tips to get that working successfully.  
 
 1. Make sure your step-box is up and working properly. If you don’t yet have that set up, follow instructions [here]() first.
     - tip: make sure your mutagen .yml file for syncing points to the correct path where your repos are
